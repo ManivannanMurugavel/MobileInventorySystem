@@ -1,0 +1,60 @@
+FileStream fs;
+				OpenFileDialog ofd = new OpenFileDialog();
+				ofd.Filter = "JPG|*.jpg|PNG|*.png";
+				if (DialogResult.OK == ofd.ShowDialog())
+				{
+					string filename = ofd.FileName;
+					Image img = Image.FromFile(filename);
+					img = resizeImage(img,new Size(150,150));
+					pictureBox1.Image = img;
+					fs = new FileStream(@filename, FileMode.Open, FileAccess.Read);
+					byte[] pic = new byte[fs.Length];
+					fs.Read(pic, 0, System.Convert.ToInt32(fs.Length));
+					fs.Close();
+
+
+					byte[] arr;
+					ImageConverter converter = new ImageConverter();
+					arr = (byte[])converter.ConvertTo(img, typeof(byte[]));
+					myConn.Open();
+					string qry = "insert into ImageTesting(Image) values(@imgpic)";
+					MySqlParameter picparams = new MySqlParameter();
+					picparams.MySqlDbType = MySqlDbType.LongBlob;
+					picparams.ParameterName = "imgpic";
+					picparams.Value = arr;
+					MySqlCommand cmd = new MySqlCommand(qry, myConn);
+					cmd.Parameters.Add(picparams);
+					cmd.ExecuteNonQuery();
+					MessageBox.Show("Image Stored");
+					cmd.Dispose();
+					myConn.Close();
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+Iamge retrive
+
+byte[] MyImg = null;
+				myConn.Open();
+				string query = "select Id,Image from ImageTesting";
+				MySqlCommand cmd = new MySqlCommand(query, myConn);
+				MySqlDataReader dr = cmd.ExecuteReader();
+				while (dr.Read())
+				{
+					//MessageBox.Show(dr["Id"].ToString());
+					MyImg = (byte[])dr["Image"];
+				}
+				MemoryStream ms = new MemoryStream(MyImg);
+				ms.Position = 0;
+				Image img = Image.FromStream(ms);
+				pictureBox2.Image = img;
+				//showGrid();
+				MessageBox.Show("Image shown");
+				cmd.Dispose();
+				dr.Close();
+				myConn.Close();

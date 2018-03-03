@@ -1,0 +1,45 @@
+F:\cordova\Mobiles\Mobiles\bin\Debug\Mobiles.exe.config
+F:\cordova\Mobiles\Mobiles\bin\Debug\Mobiles.exe
+F:\cordova\Mobiles\Mobiles\bin\Debug\Mobiles.pdb
+F:\cordova\Mobiles\Mobiles\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+F:\cordova\Mobiles\Mobiles\bin\Debug\MySql.Data.dll
+F:\cordova\Mobiles\Mobiles\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+F:\cordova\Mobiles\Mobiles\bin\Debug\MySql.Data.xml
+F:\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.addProduct.resources
+F:\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.login.resources
+F:\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.Menu.resources
+F:\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.ProductDetails.resources
+F:\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.Properties.Resources.resources
+F:\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.Registration.resources
+F:\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.csproj.GenerateResource.Cache
+F:\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.csproj.CoreCompileInputs.cache
+F:\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.exe
+F:\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.pdb
+F:\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.CustomerDetails.resources
+F:\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.csprojResolveAssemblyReference.cache
+F:\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.AddCustomer.resources
+F:\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.OrderPage.resources
+F:\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.PriceDetails.resources
+F:\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.PriceForm.resources
+D:\Dot Net\cordova\Mobiles\Mobiles\bin\Debug\Mobiles.exe.config
+D:\Dot Net\cordova\Mobiles\Mobiles\bin\Debug\Mobiles.exe
+D:\Dot Net\cordova\Mobiles\Mobiles\bin\Debug\Mobiles.pdb
+D:\Dot Net\cordova\Mobiles\Mobiles\bin\Debug\MySql.Data.dll
+D:\Dot Net\cordova\Mobiles\Mobiles\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+D:\Dot Net\cordova\Mobiles\Mobiles\bin\Debug\MySql.Data.xml
+D:\Dot Net\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.csprojResolveAssemblyReference.cache
+D:\Dot Net\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.AddCustomer.resources
+D:\Dot Net\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.addProduct.resources
+D:\Dot Net\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.CustomerDetails.resources
+D:\Dot Net\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.login.resources
+D:\Dot Net\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.Menu.resources
+D:\Dot Net\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.OrderPage.resources
+D:\Dot Net\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.PriceDetails.resources
+D:\Dot Net\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.PriceForm.resources
+D:\Dot Net\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.ProductDetails.resources
+D:\Dot Net\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.Properties.Resources.resources
+D:\Dot Net\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.Registration.resources
+D:\Dot Net\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.csproj.GenerateResource.Cache
+D:\Dot Net\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.csproj.CoreCompileInputs.cache
+D:\Dot Net\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.exe
+D:\Dot Net\cordova\Mobiles\Mobiles\obj\Debug\Mobiles.pdb

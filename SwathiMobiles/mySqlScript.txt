@@ -1,0 +1,14 @@
+Database
+create databse swathi_mobiles
+
+
+Product
+create table product(id int auto_increment primary key,product_id varchar(10),product_type varchar(30),brand_name varchar(30),model_name varchar(30),created_at date,updated_at date,no_qty int,each_price float,total_price float,prd_image longblob,is_enable varchar(6));
+
+
+---Customer---
+create table customer(id int primary key auto_increment,cust_id varchar(10),first_name varchar(20),last_name varchar(20),village varchar(50),area varchar(50),mobile_num varchar(10),pincode varchar(10),cust_img longblob);
+
+--Product CNT--
+create table product_number(prdid int(8));
+insert into product_number(prdid) values(10001);
