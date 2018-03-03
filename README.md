@@ -1,6 +1,6 @@
 # MobileInventorySystem
 
-### This is Mobile Inventory System
+### This is Swathi Mobile Inventory System
 
 ``` 
 System Requirements:
